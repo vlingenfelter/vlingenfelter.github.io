@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
 <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Fascinate+Inline|Faster+One|Libre+Barcode+39+Extended+Text|PT+Mono" rel="stylesheet">
 
 <style>
@@ -30,10 +30,12 @@ a:visited {
 .top-page-links {
   font-family: "pt mono", monospace;
   color: #fae3d9;
-  word-spacing: 25px;
+  word-spacing: 72px;
+  font-size: 20px;
 }
 h1 {
   font-family: "faster one", monospace;
+  font-size: 80px;
 }
 h2 {
   font-family: "faster one", monospace;
@@ -52,18 +54,21 @@ h4 {
 .content {
   background-color: #bbded6;
   padding: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 #bottom-bar {
   background-color: #e5a0a3;
   padding: 10px;
   margin-bottom: 20px;
+  text-align: center;
+  column-count: 2;
+  column-gap: 40px;
 }
 #bottom-barcode {
   font-family: "bungee shade", monospace;
   font-size: 32px;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 button {
   background-color: #ffb6b9;
@@ -72,6 +77,8 @@ button {
 }
 .button-wrapper {
   vertical-align: middle;
+  column-count: 3;
+  column-gap: 20px;
 }
 ul {
   list-style: none;
@@ -85,7 +92,7 @@ li {
 }
 
 li:before {
-  content: "☞";
+  content: "-";
   padding-right: 8px;
   color: #499392;
 }
@@ -94,8 +101,15 @@ li:before {
 <body>
   <div id="title-bar">
     <h1> Violet Lingenfelter </h1>
-    <p class="top-page-links"> <a href="#who">who</a> <a href="#what">what</a> <a href="#where">where</a> <a href="#how">how</a> <a href="#why">why</a></p>
+    <p class="top-page-links">
+      <a href="#who">who</a>
+      <a href="#what">what</a>
+      <a href="#where">where</a>
+      <a href="#how">how</a>
+      <a href="#why">why</a></p>
   </div>
+
+
   <div id="who" class="content">
     <a name="who"></a>
     <h2> Who </h2>
@@ -110,49 +124,72 @@ li:before {
       </ul>
     </h4>
   </div>
+
+
   <div id="what" class="content">
     <a name="what"></a>
     <h2> What </h2>
     <h4> Previous projects of hers include... (to be determined) </h4>
   </div>
+
+
   <div id="how" class="content">
     <a name="how"></a>
     <h2> How </h2>
     <h4> ?????
     </h4>
   </div>
+
+
   <div id="why" class="content">
     <a name="why"></a>
     <h2> Why </h2>
     <h4> I believe that... </h4>
   </div>
-  <div id="bottom-bar" class="row">
+
+
+
+  <div id="bottom-bar">
+
     <a name="where"></a>
-    <div class="col-6" <p id="bottom-barcode"> Made with <i class="fa fa-heart-o" style="color:#FAE3D9"></i> in Hollister, CA <br>
-      <span style="font-family: monospace"> Processed with <i class = "fa fa-coffee" style = "color:#FAE3D9"></i> in Boston, MA </span>
-      <p>
+
+    <div>
+      <p id="bottom-barcode">
+        Made with <i class="fa fa-heart-o" style="color:#FAE3D9"></i>
+        in Hollister, CA <br>
+      <span style="font-family: monospace">
+        Processed with <i class = "fa fa-coffee" style = "color:#FAE3D9"></i>
+        in Boston, MA </span>
+    </p>
     </div>
+
+    <div class = "button-wrapper">
+
     <div class="col">
-      <a href="https://www.linkedin.com/in/violet-lingenfelter-055940135/">
-  <button class = "btn btn-block btn-lg" id = "linkedin">
+      <a href="https://www.linkedin.com/in/violet-lingenfelter">
+    <button class = "btn btn-block btn-lg" id = "linkedin">
     <i class="fa fa-linkedin-square"></i>
     work
     </button></a>
     </div>
+
     <div class="col">
       <a href="https://www.instagram.com/vlingenfelter/?hl=en">
-  <button class = "btn btn-block btn-lg">
+    <button class = "btn btn-block btn-lg">
     <i class="fa fa-instagram"></i>
     play
     </button></a>
     </div>
+
     <div class="col">
       <a href="mailto:vlingenfelter5@gmail.com">
-  <button class = "btn btn-block btn-lg">
+    <button class = "btn btn-block btn-lg">
     <i class = "fa fa-envelope"></i>
     contact
       </button></a>
     </div>
+    </div>
+
   </div>
 <div id = "train-bar">
 </div>
