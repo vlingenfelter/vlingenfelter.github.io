@@ -1,180 +1,159 @@
-body {
-    font-family: "Open Sans", sans-serif;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    margin: 0;
+:root {
+  --title-size: 50px;
+  --subtitle-size: 25px;
+  --body-size: 18px;
+  --small-size: 14px;
+
+
+  --tablet-title-size: 40px;
+  --mobile-title-size: 35px;
+  --xs-title-size: 25px;
+
+  --mobile-subtitle-size: 20px;
+  --mobile-body-size: 16px;
+  --mobile-small-size: 13px;
 }
 
-h1 {
-  font-family: "Source Code Pro", monospace;
-  font-weight: 200;
-  font-size: 4em;
-  text-shadow: 3px 4px 10px #000000;
-
-}
-
-h2 {
-  font-family: "Source Code Pro", monospace;
-  font-weight: 200;
-  font-size: 3em;
-  text-shadow: 3px 4px 10px #000000;
-}
-
-h3 {
-  font-family: "Source Code Pro", monospace;
-  font-weight: 400;
-  font-size: 2em;
-  color: #686868;
-}
-
-h4 {
-  font-weight: 200;
-}
-
-p {
-  font-size: 1.65em;
-  color: #444444;
-}
-
-#menu-bar {
-  background-color: #444444;
-  color: white;
-  padding: 1em;
-  font-family: "Source Code Pro", monospace;
-  font-weight: 200;
-}
-
-header {
-  background-color:#95c4bb; /* #60baa9; */
-  color: white;
-  padding: 1em;
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: "Corben", sans-serif;
+  background-color: honeydew;
   text-align: center;
 }
-
-.header-block {
-  text-align: center;
-  padding: 2.5em;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #444444;
-  color: white;
+* {
+  box-sizing: border-box;
 }
-
+header h1 {
+  font-weight: 700;
+  padding: 1em;
+  font-size: var(--mobile-title-size);
+}
+img {
+  width: 100%;
+  height: auto;
+}
 footer {
-  background-color: #95c4bb;
-  color: white;
-  text-align: center;
-  font-size: 1em;
   padding: 1em;
-  font-family: "Source Code Pro", monospace;
-  font-weight: 200;
+}
+main {
+
 }
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #686868;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+nav {
+  padding-bottom: 2em;
+}
+.nav-link {
+  margin-right: 4em;
+  margin-left: 4em;
+  font-size: var(--mobile-body-size);
 }
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 1.75em;
-    color: white;
-    display: block;
-    transition: 0.3s;
-    font-family: "Source Code Pro", monospace;
-    font-weight: 200;
+.blurb {
+  float: left;
+  padding: 1em;
+  text-align: left;
 }
 
-.sidenav a:hover {
-    color: #ffe419;
-    text-shadow: 2px 3px 30px #000;
-    font-size: 2em;
+
+.blurb a {
+  position: relative;
+  color: #000;
+  border-bottom: 2px dashed lightSalmon;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
+.blurb a:hover {
+  color: darkSalmon;
 }
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+.blurb a:before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: lightSalmon;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  */
 }
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #95c4bb;
-    color: black;
+.blurb a:hover::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.links {
-  letter-spacing: 12px;
-}
-
-.links a {
+/*
+nav a {
   text-decoration: none;
-  color: #686868;
-  font-size: 2em;
+  padding: 2em;
 }
 
-.links a:hover {
-  color: #00c49f;
+nav a:hover {
+  text-decoration: underline;
+}
+*/
+a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
 }
 
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    margin-left: 50px;
+a:hover {
+  color: #000;
 }
 
-#website-content {
-    transition: 0.5s;
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: lightSalmon;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 
-.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 4px 8px rgba(0,0,0,0.2);
-    transition: 0.3s;
-    background-color: white;
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-    box-shadow: 8px 16px rgba(0,0,0,0.2);
-}
 
-/* Add some padding inside the card container */
-.container {
-    padding: 4em;
-    color: black;
-    text-align: left;
-}
+.horizontal-after:after {
+    content: " ";
+    display: block;
+    margin: 1.5em;
+    border-bottom: 1px solid black;
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+  }
+
+
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    header h1 {font-size: var(--title-size);}
+    .nav-link {font-size: var(--body-size);}
+
+  }
