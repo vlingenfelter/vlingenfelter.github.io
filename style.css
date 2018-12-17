@@ -14,6 +14,24 @@
   --mobile-small-size: 13px;
 }
 
+.tag {
+    display: inline-block;
+    color: black;
+    background-color: honeydew;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-size: var(--small-size);
+    font-family: "Nobile", sans-serif;
+    border: 2px solid lightSalmon;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
 body, h1,h2,h3,h4,h5,h6 {
   font-family: "Corben", sans-serif;
   background-color: honeydew;
