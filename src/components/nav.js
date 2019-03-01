@@ -16,43 +16,25 @@ const Nav = () => (
       }}
     >
     <div className="horizontal"></div>
-
           <Link
             to="/projects/"
-            style={{
-              color: 'black',
-              textDecoration: 'none',
-              marginRight: '1em',
-              marginLeft:'1em',
-              fontSize: '18px'
-            }}
+            className = "nav-link"
           >
             Projects
           </Link>
           <Link
             to="/blog/"
-            style={{
-              color: 'black',
-              textDecoration: 'none',
-              marginRight: '1em',
-              marginLeft:'1em',
-              fontSize: '18px'
-            }}
+            className = "nav-link"
           >
             Blog
           </Link>
           <Link
             to="/about/"
-            style={{
-              color: 'black',
-              textDecoration: 'none',
-              marginRight: '1em',
-              marginLeft:'1em',
-              fontSize: '18px'
-            }}
+            className = "nav-link"
           >
             Info
           </Link>
+
           <div className="horizontal"></div>
     </div>
   </div>

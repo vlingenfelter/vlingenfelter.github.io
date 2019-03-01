@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -13,10 +13,10 @@ const Projects = () => (
     <p>
       S.L.I.D.E., or the Street Level Infrastructure Distribution Engine, is a
       project I completed while on my first co-op at the MBTA with the
-       <a href="http://www.mbtabackontrack.com/performance/index.html#/home">
-      Office of Performance Management and Innovation</a>. Slide is an eqiuity analysis
+      <a href="http://www.mbtabackontrack.com/performance/index.html#/home"> Office
+      of Performance Management and Innovation</a>. Slide is an equity analysis
       tool designed to help policy makers decide which bus stops to prioritize for
-      infrastructure upgrades.
+      infrastructure upgrades. <Link to="/blog/SLIDE/">Click for more info</Link>
     </p>
     <div className="tags">
       <span className="tag">Leaflet.js</span>
@@ -45,7 +45,7 @@ const Projects = () => (
     <p>
     As part of my GIS coursework, I analyzed whether public restrooms installed
     in the city of San Francisco actually had an effect on occurances of human
-    feces on the streets. 
+    feces on the streets.
     </p>
     <div className="tags">
       <span className="tag">ArcGIS</span>

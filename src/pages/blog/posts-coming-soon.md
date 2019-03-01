@@ -8,4 +8,4 @@ tags: ["book review", "climate change"]
 - A recap of my co op at the MBTA
 - My recommended reading list going into 2019
 - Why you should take the bus and where you should go
-- What my capstone will be on
+- What my capstone (senior project) will be about

@@ -15,6 +15,27 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Nobile"
 }
 
+blockquote {
+    padding-left: 1em;
+    border-left: 2px solid lightSalmon;
+    font-family: "Nobile";
+    font-size: 1.1em;
+}
+
+div.polaroid {
+  width: 100%;
+  background-color: MintCream;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+img {
+  width: 100%
+}
+
+div.container {
+  text-align: left;
+  padding: 10px 20px;
+  font-family: "Nobile", sans-serif;
+}
 
 a {
   position: relative;
@@ -88,6 +109,16 @@ a:hover:before {
     margin: 1.5em;
     border-bottom: 1px solid black;
 }
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  margin-right: 1em;
+  margin-left:1em;
+  font-size: 18px;
+  font-family: "Poly"
+}
+
 p {
   font-family: 'Poly', sans-serif;
   line-height: 1.85;
@@ -120,6 +151,14 @@ p a:hover::before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+#profile-pic {
+  display: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 .tag {
     display: inline-block;
     color: black;
@@ -172,8 +211,26 @@ ul li:before {
     margin: 0 1em;
   }
 
+  div.polaroid {
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+  }
+
+  div.polariod-container {
+    text-align: center;
+  }
   .flex-container {
     display: flex;
     flex-direction: row;
+  }
+  #profile-pic {
+    display: flex;
+    margin: 1em 1em;
+  }
+
+  blockquote {
+    font-size: 1.4em;
+    padding-left: 2em;
   }
 }

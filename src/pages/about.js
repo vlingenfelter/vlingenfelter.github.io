@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -23,7 +24,7 @@ const About = () => (
      crowding impacts the system.
      </p>
      <p> In my free time, I like to knit, travel, and blog about public
-     transportation. You can check out my <a href="https://www.etsy.com/shop/LingenfelterStudio">Etsy</a> or
+     transportation. You can check out my <OutboundLink href="https://www.etsy.com/shop/LingenfelterStudio">Etsy</OutboundLink> or
      my <Link to="/blog/">blog</Link>.
      </p>
 
@@ -33,11 +34,11 @@ const About = () => (
      <p>
      Send me an email at <a href="mailto:vlingenfelter5@gmail.com">vlingenfelter5@gmail.com</a>
      <br />
-     Check me out on <a href="https://www.linkedin.com/in/violet-lingenfelter/">LinkedIn</a>
+     Check me out on <OutboundLink href="https://www.linkedin.com/in/violet-lingenfelter/">LinkedIn</OutboundLink>
      <br />
-     See some of my code on <a href="https://github.com/vlingenfelter">GitHub</a>
+     See some of my code on <OutboundLink href="https://github.com/vlingenfelter">GitHub</OutboundLink>
      <br />
-     Or see some of my photos on <a href="https://www.instagram.com/vlingenfelter/">Instagram</a>
+     Or see some of my photos on <OutboundLink href="https://www.instagram.com/vlingenfelter/">Instagram</OutboundLink>
      </p>
      <hr />
      <p>

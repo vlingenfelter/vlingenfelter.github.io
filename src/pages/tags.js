@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Layout from '../components/layout'
 
 // Utilities
 import kebabCase from "lodash/kebabCase"
@@ -16,6 +17,7 @@ const TagsPage = ({
     },
   },
 }) => (
+  <Layout>
   <div>
     <Helmet title={title} />
     <div>
@@ -31,6 +33,7 @@ const TagsPage = ({
       </ul>
     </div>
   </div>
+  </Layout>
 )
 
 TagsPage.propTypes = {
