@@ -41,7 +41,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'violetlingenfelter',
-        short_name: 'starter',
+        short_name: 'violetlingenfelter',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
