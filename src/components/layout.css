@@ -158,6 +158,17 @@ p a:hover::before {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.post-feed {
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 30px;
+    grid-template-columns: 1fr;
+}
+
+.post-card {
+  background-color: MintCream;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
 
 .tag {
     display: inline-block;
@@ -232,5 +243,9 @@ ul li:before {
   blockquote {
     font-size: 1.4em;
     padding-left: 2em;
+  }
+
+  .post-feed {
+    grid-template-columns: 1fr 1fr;
   }
 }

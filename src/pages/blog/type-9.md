@@ -3,6 +3,7 @@ title: "Type 9: The Next Green Line Car"
 date: "2018-12-21"
 author: "Violet Lingenfelter"
 tags: ["mbta", "transit", "boston", "green line", "light rail"]
+cover: ""
 ---
 
 The day is finally here, Bostonians! The first Type 9 Green Line vehicle was deployed to be tested out in the field, and I got to ride on the first one!

@@ -9,12 +9,11 @@ export default ({ data }) => {
       <div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id} className="blog-item">
-            <Link
-              to={node.fields.slug}
-              >
+            <Link to={node.fields.slug}>
               <h3>
                 <span className="blog-title">{node.frontmatter.title}</span>
               </h3>
+              <p>Time to read: {node.timeToRead} minutes</p>
               <p className="excerpt">{node.excerpt}</p>
               <p>{node.frontmatter.tags.map((tag) => (
                 <span className ="tag" key={tag}> {tag} </span>
@@ -29,7 +28,8 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }
+    filter: {fileAbsolutePath: {regex: "/(blog)/.*.md$/"}}) {
       totalCount
       edges {
         node {

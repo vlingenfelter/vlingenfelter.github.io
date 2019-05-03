@@ -2,8 +2,16 @@
 title: "S. L. I. D. E."
 date: "2019-01-21"
 author: "Violet Lingenfelter"
-tags: ["mbta", "transit", "bus", "web development", "project"]
+tags: ["transit", "leaflet.js", "turf.js", "ArcGIS", "jQuery"]
+cover: "./slide.png"
+blurb: "S.L.I.D.E., or the Street Level Infrastructure Distribution Engine, is a
+project I completed while on my first co-op at the MBTA with the Office
+of Performance Management and Innovation. Slide is an equity analysis
+tool designed to help policy makers decide which bus stops to prioritize for
+infrastructure upgrades."
 ---
+
+
 <div class="polariod-container">
 <div class="polaroid">
   <img src="https://66.media.tumblr.com/54e109946c13354401b6b69e601591e5/tumblr_plo1ucJxST1scy1sco1_1280.png" alt="Image of SLIDE" />

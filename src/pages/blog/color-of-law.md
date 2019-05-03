@@ -3,6 +3,7 @@ title: "The Color of Law & Public Transit"
 date: "2019-01-13"
 author: "Violet Lingenfelter"
 tags: ["mbta", "transit", "orange line", "the color of law", "book review"]
+cover: "./color-of-law.png"
 ---
 
 <div class="polariod-container">
@@ -12,7 +13,7 @@ tags: ["mbta", "transit", "orange line", "the color of law", "book review"]
   <p>
   The Color of Law: The Forgotten History of How Our Government Segregated America by Richard Rothstein
   <br />
-  <a href="https://www.amazon.com/Color-Law-Forgotten-Government-Segregated/dp/1631494538/ref=sr_1_1?s=books&ie=UTF8&qid=1547326038&sr=1-1&keywords=the+color+of+law">Buy the book here</a></p>
+  <a href="https://www.amazon.com/Color-Law-Forgotten-Government-Segregated/dp/1631494538/ref=sr_1_1?s=books&ie=UTF8&qid=1547326038&sr=1-1&keywords=the+color+of+law">Buy the book here</a> (or even better, borrow it from the library)</p>
   </div>
 </div>
 </div>
