@@ -3,21 +3,8 @@ title: "The Color of Law & Public Transit"
 date: "2019-01-13"
 author: "Violet Lingenfelter"
 tags: ["mbta", "transit", "orange line", "the color of law", "book review"]
-cover: "./color-of-law.png"
+cover: "./color_of_law.jpg"
 ---
-
-<div class="polariod-container">
-<div class="polaroid">
-  <img src="https://alumni.asu.edu/sites/default/files/styles/max_1300x1300/public/color_of_law_2.jpg?itok=4P2_wouQ" alt="Cover of The Color of Law" />
-  <div class="container">
-  <p>
-  The Color of Law: The Forgotten History of How Our Government Segregated America by Richard Rothstein
-  <br />
-  <a href="https://www.amazon.com/Color-Law-Forgotten-Government-Segregated/dp/1631494538/ref=sr_1_1?s=books&ie=UTF8&qid=1547326038&sr=1-1&keywords=the+color+of+law">Buy the book here</a> (or even better, borrow it from the library)</p>
-  </div>
-</div>
-</div>
-
 The first book I read in 2019 was The Color of Law: The Forgotten History of How Our Government Segregated America by Richard Rothstein. In his work, Rothstein argues that segregation is the direct product of explicit government policies. Rothstein shows how the government promoted discriminatory practices at the federal, state, and local levels, in cities from Boston to San Francisco. Long-listed for the Nation Book Award, and one of _Publishers Weekly's_ 10 best books of 2017, the Color of Law is a must-read if you are interested in structural racism in U.S. housing policy.
 
 While his focus is primarily on housing policy, Rothstein touches on how the defunding of public transportation disproportionately affects African Americans. Highway subsidies often came at the expense of budgets for public transit, which serve inner city communities and households without cars. Highways were also often routed directly through majority black neighborhoods as a method of systematically erasing communities of color or as a way of separating them from white neighborhoods.
@@ -76,3 +63,15 @@ Moving the Orange Line to the Southwest Corridor was an elegant way of using thi
 As we move into 2019, we must hold with us the legacy of our past mistakes. When we consider what infrastructure we wish to invest in, we must consider the communities affected. Choosing to invest in public transit, coupled with investing in nearby affordable housing, can help right some of the wrongs we have made on this front. We can and must do better.
 
 I plan to keep the ideas and facts presented in this book at the front of my mind during 2019. When considering urban planning and how our cities are structured, one must keep sight of the more insidious motives that past planners may have held. When I consider the place that I have spent the last two and a half years, Northeastern University, I must remember the Southwest Expressway and its legacy. The Southwest Corridor cuts through our campus. I must remember how easily the Southwest Corridor could have been a massive highway, and how glad I am that it isn't.
+
+<div class="polariod-container">
+<div class="polaroid">
+  <img src="https://alumni.asu.edu/sites/default/files/styles/max_1300x1300/public/color_of_law_2.jpg?itok=4P2_wouQ" alt="Cover of The Color of Law" />
+  <div class="container">
+  <p>
+  The Color of Law: The Forgotten History of How Our Government Segregated America by Richard Rothstein
+  <br />
+  <a href="https://www.amazon.com/Color-Law-Forgotten-Government-Segregated/dp/1631494538/ref=sr_1_1?s=books&ie=UTF8&qid=1547326038&sr=1-1&keywords=the+color+of+law">Buy the book here</a> (or even better, borrow it from the library)</p>
+  </div>
+</div>
+</div>

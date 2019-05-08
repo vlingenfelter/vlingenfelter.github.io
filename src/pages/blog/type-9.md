@@ -3,23 +3,10 @@ title: "Type 9: The Next Green Line Car"
 date: "2018-12-21"
 author: "Violet Lingenfelter"
 tags: ["mbta", "transit", "boston", "green line", "light rail"]
-cover: ""
+cover: "./type-9.jpg"
 ---
 
-The day is finally here, Bostonians! The first Type 9 Green Line vehicle was deployed to be tested out in the field, and I got to ride on the first one!
-
-<div class="polariod-container">
-<div class="polaroid">
-  <img src="https://cdn.mbta.com/sites/default/files/projects/green-line-cars/2018-07-18-new-GL-car-oncoming.jpg" alt="Intercom and yellow grab railing on new Green Line car" />
-  <div class="container">
-  <p>Front of an approaching new Green Line car
-  <br />
-  <span style="font-weight:bold;">Source:</span> <a href="https://www.mbta.com/projects/new-green-line-vehicles">MBTA</a></p>
-  </div>
-</div>
-</div>
-
-There are lots of reasons to be excited about the Type 9 vehicles. These vehicles represents a move towards a better MBTA. In this post I will highlight what I'm most excited about with these vehicles: better accessibility, better passenger experience, and better data collection.
+The day is finally here, Bostonians! The first Type 9 Green Line vehicle was deployed to be tested out in the field, and I got to ride on the first one! There are lots of reasons to be excited about the Type 9 vehicles. These vehicles represents a move towards a better MBTA. In this post I will highlight what I'm most excited about with these vehicles: better accessibility, better passenger experience, and better data collection.
 
 ## What I'm Excited About
 
