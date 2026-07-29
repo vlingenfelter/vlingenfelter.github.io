@@ -4,7 +4,7 @@ publicationDate: 2019-01-21
 author: "Violet Lingenfelter"
 tags: ["transit", "leaflet.js", "turf.js", "ArcGIS", "jQuery"]
 image: "./slide.png"
-description: "S.L.I.D.E., or the Street Level Infrastructure Distribution Engine, is a project I completed while on my first co-op at the MBTA with the Office of Performance Management and Innovation. Slide is an equity analysis tool designed to help policy makers decide which bus stops to prioritize for infrastructure upgrades."
+description: "S.L.I.D.E., or the Street Level Infrastructure Distribution Engine, is a project I completed while on my first co-op at the MBTA with the Office of Performance Management and Innovation."
 ---
 
 
