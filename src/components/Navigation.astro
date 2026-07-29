@@ -3,13 +3,19 @@ import { NAV_LINKS, SITE } from "@/siteConfig.ts";
 ---
 
 <header
-  class="flex-col items-left sm:flex-row mx-auto flex max-w-screen-lg flex-wrap sm:items-center justify-between p-3 pb-8 sm:p-6 font-display"
+  class="items-left flex-row mx-auto flex max-w-screen-lg flex-wrap sm:items-center justify-between p-3 pb-8 sm:p-6 font-display"
 >
-  <a
-    href="/"
-    class="text-lg font-display text-black sm:text-xl dark:text-white"
-    >{SITE.title}</a
-  >
+  <div class="flex flex-row align-center items-center gap-2">
+      <img
+      src="../../public/android-chrome-192x192.png"
+      alt="Violet Lingenfelter Logo"
+      class="mr-2 h-6 w-6" />
+    <a
+      href="/"
+      class="text-lg font-display text-black sm:text-xl dark:text-white"
+      >{SITE.title}</a
+    >
+  </div>
   <nav>
     <ul class="flex list-none items-center gap-2 p-0 sm:gap-3">
       {
