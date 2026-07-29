@@ -23,7 +23,8 @@ export default defineConfig({
       theme: "dark-plus",
     },
   },
-  site: "https://barebones.trevortylerlee.com",
+  site: "https://vlingenfelter.github.io",
+  base: "/dev_website",
   vite: {
     plugins: [tailwindcss()],
   },
