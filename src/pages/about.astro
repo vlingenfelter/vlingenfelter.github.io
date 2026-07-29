@@ -1,0 +1,17 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SeoPage from "@/components/SeoPage.astro";
+import AboutContent from "@/content/about.md";
+import SocialLinks from "@/components/SocialLinks.astro";
+---
+
+<BaseLayout>
+  <SeoPage slot="head" title="About | Violet Lingenfelter" />
+  <h1 class="sr-only">About</h1>
+  <div class="prose dark:prose-invert prose-neutral">
+    <AboutContent />
+  </div>
+  <div class="mt-12">
+      <SocialLinks />
+  </div>
+</BaseLayout>

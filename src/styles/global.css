@@ -23,24 +23,27 @@
 }
 
 @theme {
-  --color-bg: var(--color-neutral-50);
-  --color-link: oklch(46.97% 0.2734 267.56);
-  --color-muted-text: var(--color-neutral-700);
+  --color-bg: var(--color-olive-100);
+  --color-bg-card: var(--color-olive-50);
+  --color-link: var(--color-violet-800);
+  --color-muted-text: var(--color-neutral-500);
 
-  --color-dark-bg: var(--color-neutral-950);
-  --color-dark-link: oklch(73.9% 0.1387 282.47);
-  --color-dark-muted-text: var(--color-neutral-300);
+  --color-dark-bg: var(--color-neutral-900);
+  --color-dark-link: var(--color-violet-300);
+  --color-dark-bg-card: var(--color-neutral-800);
+  --color-dark-muted-text: var(--color-neutral-400);
 }
 
 @theme inline {
   --font-sans: var(--font-geist);
+  --font-display: var(--font-corben);
 }
 
 /* ensure .link and typography.css are consistent */
 .link,
 .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   color: var(--color-link);
-  font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-link);
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-color: var(--color-link);
@@ -56,4 +59,70 @@
   :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   color: var(--color-dark-link);
   text-decoration-color: var(--color-dark-link);
+  font-weight: var(--font-link);
+}
+
+.button {
+  color: var(--color-link);
+  border-color: var(--color-link);
+}
+
+.button:hover {
+  color: var(--color-link);
+  border-color: var(--color-link);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-link);
+  text-decoration-thickness: 1px;
+}
+
+.dark .button {
+  color: var(--color-dark-link);
+  border-color: var(--color-dark-link);
+}
+
+.dark .button:hover {
+  color: var(--color-dark-link);
+  border-color: var(--color-dark-link);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-dark-link);
+  text-decoration-thickness: 1px;
+}
+
+.dark .polariod-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.polariod-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  
+}
+
+.dark .container {
+  text-align: left;
+  width: 0;
+  color: var(--color-dark-muted-text);
+  min-width: 100%;
+}
+
+.container {
+  text-align: left;
+  width: 0;
+  color: var(--color-muted-text);
+  min-width: 100%;
+}
+
+.dark .card {
+  border: var(--color-dark-border-card) 2px solid;
+  background-color: var(--color-dark-bg-card);
+}
+
+.card {
+  border: var(--color-border-card) 2px solid;
+  background-color: var(--color-bg-card);
 }

@@ -1,0 +1,3 @@
+## About 
+
+I'm Violet Lingenfelter. I'm originally from the California Central Coast. I got a degree in Environmental Science focused on geographic information systems (GIS) from Northeastern University in 2021.

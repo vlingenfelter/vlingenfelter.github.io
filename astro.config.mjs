@@ -12,6 +12,11 @@ export default defineConfig({
       name: "Geist",
       cssVariable: "--font-geist",
     },
+    {
+      provider: fontProviders.google(),
+      name: "Corben",
+      cssVariable: "--font-corben",
+    },
   ],
   markdown: {
     shikiConfig: {
