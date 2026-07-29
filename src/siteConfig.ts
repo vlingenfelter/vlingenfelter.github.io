@@ -7,18 +7,18 @@ import type {
 export const SITE: SiteConfiguration = {
   title: "Violet Lingenfelter",
   description: "A barebones starter theme. Built with Astro, Tailwind CSS, and Markdown.",
-  href: "https://barebones.trevortylerlee.com",
+  href: "https://vlingenfelter.github.io/dev_website",
   author: "Violet Lingenfelter",
   locale: "en-CA",
 };
 
 export const NAV_LINKS: NavigationLinks = {
   posts: {
-    path: "/posts",
+    path: "/dev_website/posts",
     label: "Posts",
   },
   about: {
-    path: "/about",
+    path: "/dev_website/about",
     label: "About",
   },
 };
