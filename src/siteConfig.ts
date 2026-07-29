@@ -31,5 +31,9 @@ export const SOCIAL_LINKS: SocialLinks = {
   github: {
     label: "GitHub",
     href: "https://github.com/vlingenfelter",
+  },
+  stinky: {
+    label: "stinkydoes.art",
+    href: "https://stinkydoes.art",
   }
 };
