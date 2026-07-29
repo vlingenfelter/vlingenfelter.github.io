@@ -24,7 +24,6 @@ export default defineConfig({
     },
   },
   site: "https://vlingenfelter.github.io",
-  base: "/dev_website",
   vite: {
     plugins: [tailwindcss()],
   },
