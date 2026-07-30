@@ -25,7 +25,7 @@
 @theme {
   --color-bg: var(--color-olive-100);
   --color-bg-card: var(--color-olive-50);
-  --color-link: var(--color-violet-800);
+  --color-link: var(--color-violet-500);
   --color-muted-text: var(--color-neutral-500);
 
   --color-dark-bg: var(--color-neutral-900);
