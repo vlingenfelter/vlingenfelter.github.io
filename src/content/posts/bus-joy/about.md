@@ -22,18 +22,18 @@ As a fun extension of the work I did for my capstone at the MBTA, I developed th
 </div>
 </div>
 
-The iconic album cover was desinged by Peter Saville in 1978 for Joy Divison's ablum "Unknown Pleasures", but the design was originally a data visualization. The band found the image in a page from the Cambridge Encyclopaedia of Astronomy (1977 edition, Scientific American notes) depicting a series of radio frequency periods from the first pulsar discovered. The diagram they say was created by Harold D. Craft, Jr. for his PhD "Radio Observations of the Pulse Profiles and Dispersion Measures of Twelve Pulsars" (September, 1970).
+The iconic album cover was designed by Peter Saville in 1978 for Joy Division's album _Unknown Pleasures_, but the design was originally a data visualization. The band found the image in a page from the Cambridge Encyclopaedia of Astronomy (1977 edition, Scientific American notes) depicting a series of radio frequency periods from the first pulsar discovered. The diagram they say was created by Harold D. Craft, Jr. for his PhD "Radio Observations of the Pulse Profiles and Dispersion Measures of Twelve Pulsars" (September, 1970).
 
 <div class="polariod-container">
 <div class="polaroid">
   <img src="https://upload.wikimedia.org/wikipedia/en/5/5a/UnknownPleasuresVinyl.jpg" alt="Joy Division's Unknown Pleasures album cover" />
   <div class="container">
-  <p>The image from Joy Division's Unknown Sources album cover. Source: Wikimedia</p>
+  <p>The image from Joy Division's <i>Unknown Pleasures</i> album cover. Source: Wikimedia</p>
   </div>
 </div>
 </div>
 
-The album cover desing is immensely popular. It has been parodied many times, from artists drawing upon the style of the ridgeline plot to create new designs, to word play on either the band's name or the album's title. 
+The album cover design is immensely popular. It has been parodied many times, from artists drawing upon the style of the ridgeline plot to create new designs, to word play on either the band's name or the album's title. 
 
 
 ## Bus Crowding

@@ -7,7 +7,7 @@ image: "./bce.png"
 description: "For my senior capstone project I created a new data visualization of crowding on buses at the MBTA. The Bus Crowding Explorer will help service planners identify causes of and solutions to crowding on the bus network."
 ---
 
-For my senior capstone project I created a new data visualzation tool for the MBTA as a part of the [Office of Performance Management and Innovation (OPMI)](https://www.mbtabackontrack.com). 
+For my senior capstone project I created a new data visualization tool for the MBTA as a part of the [Office of Performance Management and Innovation (OPMI)](https://www.mbtabackontrack.com). 
 
 <div class="polariod-container">
 <div class="polaroid">
@@ -20,7 +20,7 @@ For my senior capstone project I created a new data visualzation tool for the MB
 
 ## How is crowding measured?
 
-Crowding measurement is.. complex. On the most basic level, bus crowding is defined by the [MBTA Service Delivery Policy](https://www.mbta.com/policies) as a function of vehicle occupancy in terms of passenger time. This means that the actual measurment of crowding is in uncomfortable passenger hours, meaning the cummulative time spent by passengers in uncomfortable conditions  During high occupancy times, all passengers are considered uncomfortable if a vehicle is at 140% of its seated capacity (meaning that for every 3 people sitting, another person is standing). When the vehicle is between 125% and 140% seated capacity, all standing passengers are considered uncomfortable and their time is counted for the metric. For times that aren't high occupancy, if the vehicle is at 125% of seated capacity or higher, all passengers are considered uncomfortable. Otherwise all passengers are considered comfortable. 
+Crowding measurement is.. complex. On the most basic level, bus crowding is defined by the [MBTA Service Delivery Policy](https://www.mbta.com/policies) as a function of vehicle occupancy in terms of passenger time. This means that the actual measurement of crowding is in uncomfortable passenger hours, meaning the cumulative time spent by passengers in uncomfortable conditions. During high occupancy times, all passengers are considered uncomfortable if a vehicle is at 140% of its seated capacity (meaning that for every 3 people sitting, another person is standing). When the vehicle is between 125% and 140% seated capacity, all standing passengers are considered uncomfortable and their time is counted for the metric. For times that aren't high occupancy, if the vehicle is at 125% of seated capacity or higher, all passengers are considered uncomfortable. Otherwise all passengers are considered comfortable. 
 
 <div class="polariod-container">
 <div class="polaroid">
